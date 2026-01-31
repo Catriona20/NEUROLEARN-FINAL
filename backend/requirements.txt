@@ -1,0 +1,21 @@
+# NeuroLearn FastAPI Backend - Requirements
+# Speech-to-Text Analysis for Dyslexia Screening
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Speech Recognition
+SpeechRecognition==3.10.1
+pydub==0.25.1
+
+# Database
+supabase==2.3.4
+python-dotenv==1.0.0
+
+# CORS (for Flutter web)
+fastapi-cors==0.0.6
+
+# Audio Processing
+numpy==1.26.3
